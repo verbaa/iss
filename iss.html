@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+<header class="header">
+    <div class="iss-located">
+
+
+        <div id="theISSIsLocatedLat" class="cmdData"></div>
+        <div id="theISSIsLocatedLng" class="cmdData"></div>
+
+
+    </div>
+    <div class="utc-time" id="utc-time"></div>
+
+</header>
+
+<main>
+    <div class="people" id="people"></div>
+    <div class="map-content">
+        <div id="mapCanvas" class="map"></div>
+    </div>
+
+
+</main>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDajRBtGGCaz958ss2pOvejMODnI4lhrr0&callback=initMap"
+        async defer></script>
+<script src="js/map.js"></script>
+<script src="js/utc-time.js"></script>
+<script src="js/people.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #01193b;
+  color: #069cf9;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .iss-located {
+  width: 200px;
+  border: 2px solid #069cf9;
+}
+
+header .utc-time {
+  width: 200px;
+  border: 3px solid #069cf9;
+}
+
+main #mapCanvas {
+  margin-top: 1em;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  padding-right: 1em;
+  border: 3px solid #069cf9;
+}
+
+main #people {
+  display: flex;
+  flex-direction: column;
+}

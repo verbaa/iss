@@ -1,0 +1,46 @@
+$light-blue: #069cf9;
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #01193b;
+  color: $light-blue;
+}
+header{
+  display: flex;
+  justify-content: center;
+  .iss-located{
+    width: 200px;
+    border: 2px solid $light-blue;
+
+  }
+  .utc-time{
+    width: 200px;
+    border: 3px solid $light-blue;
+
+
+  }
+}
+main{
+  #mapCanvas{
+    margin-top: 1em;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+
+    padding-right: 1em;
+    border: 3px solid $light-blue;
+  }
+  #people{
+    display: flex;
+
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
